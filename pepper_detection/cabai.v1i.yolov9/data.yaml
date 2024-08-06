@@ -1,0 +1,13 @@
+train: /Users/maartenvanhooft/PycharmProjects/udemy-open-cv/pepper_detection/cabai.v1i.yolov9/train/images
+val: /Users/maartenvanhooft/PycharmProjects/udemy-open-cv/pepper_detection/cabai.v1i.yolov9/valid/images
+test: /Users/maartenvanhooft/PycharmProjects/udemy-open-cv/pepper_detection/cabai.v1i.yolov9/test/images
+
+nc: 1
+names: ['cabai']
+
+roboflow:
+  workspace: sayur-naufal
+  project: cabai-cbewi
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sayur-naufal/cabai-cbewi/dataset/1
